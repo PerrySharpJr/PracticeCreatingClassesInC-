@@ -19,6 +19,17 @@ Media Type Examples
 
 2nd Challenge
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1. In the Program.cs file 'Main()' method, use the 'new' keyword to create at least one instance of each of your media type classes.
 
 2. For each of the o bjects that you create, set each field to an appropriate value.
+
+
+3rd Challenge
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+1. Add a constructor to each of your media type classes.
+
+2. Define a constructor parameter for each of the media type's required fields and use those parameter values to initialize its fields.
+
+3. Update the Program.cs file 'Main()' method in order for your programs to successfully compile.
