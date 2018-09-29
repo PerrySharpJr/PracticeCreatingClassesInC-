@@ -6,17 +6,9 @@ namespace Treehouse.MediaLibrary
     {
         static void Main()
         {
-            var album = new Album();
-            album.Title = "Kamikaze";
-            album.Artist = "Eminem";
-
-            var book = new Book();
-            book.Title = "The Odyssey";
-            book.Author = "Homer";
-
-            var movie = new Movie();
-            movie.Title = "The Lion King";
-            movie.Director = "Walt Disney";
+            var album = new Album("Kamikaze", "Eminem");
+            var book = new Book("The Odyssey", "Homer");
+            var movie = new Movie("The Lion King", "Walt Disney");
 
             Console.WriteLine("Album: " + album.Title + " by " + album.Artist);
             Console.WriteLine("Book: " + book.Title + " by " + book.Artist);
